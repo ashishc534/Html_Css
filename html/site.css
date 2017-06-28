@@ -1,0 +1,128 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	background-color: lightgrey;
+}
+body header{
+	margin-left: 150px;
+	margin-right: 150px;
+	border-bottom: 2px solid black;
+}
+
+body header div.siteheader{
+	display: flex;
+	background-color: #333;
+	width: 100%;
+	padding-top: 15px;
+}
+
+body header div.siteheader img{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 70px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body header div.siteheader div ul.first {
+	margin-left: 45px;
+	padding-top: 5px;
+	display:flex;
+	color:white;
+	text-decoration: underline; 
+}
+body header div.siteheader div ul.first li{
+	width: 40%;
+	display: block;
+}
+body header div.siteheader div ul.first li span{
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+body header div.siteheader input.search_bar{
+	width: 100%;
+	height: 25px;
+	margin-top:10px;
+	margin-left: 20px;
+}
+body header div.siteheader ul.second {
+	padding-left: 25px;
+	padding-top: 5px;
+	display:flex;
+	color:white;
+}
+body header div.siteheader ul.second li{
+	justify-content: space-around;
+	display: block;
+}
+body header div.siteheader div ul.second li img{
+	height:45px;
+}
+body header div.siteheader div ul.second li h4{
+	padding-top:10px;
+	text-decoration: underline;
+	padding-left:10px;
+}
+body header div.siteheader div em{
+	padding-left: 60px;
+	color: white;
+	font-size: 80%;
+}
+body header div.siteheader div u{
+	font-size: 80%;
+	padding-left: 10px;
+	color: white;
+}
+main{
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #414243;
+    display: flex;
+	justify-content: space-around;
+}
+main div.one{
+	width: 100%;overflow:auto; display: flex;
+}
+
+main div.one div img{
+	margin-top: 15px;
+	margin-right: 5px;
+}
+main div.one div img.firstimage{
+	margin-left: 15px;
+}
+main div.two{
+	flex:right; width: 40%; height: 100%; background-color: white;
+	border-left:5px solid lightgrey;
+}
+main div.two div{
+	background-color:#414243; 
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+main div.two div div{
+	padding-top:5px;
+	/*margin-right: 5px;*/
+}
+main div.two div div h4{
+	color: white;
+}
+main div.two div div h5{
+	color: white;
+}
+main div.two div div small{
+	padding-left: 100px;
+	color: white;
+	font-size: 80%;
+}
+main div.two div div section{
+	color: white;
+	height:30px;
+	margin-top: 5px;
+	background-color: #353535;
+}
